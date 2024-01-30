@@ -35,7 +35,6 @@ struct MemoDetailView: View {
                     .truncationMode(.tail) // 末尾で切り詰め
                 
                 
-                Spacer(minLength: 2)
 
 
                 Text("2023/01/30 AM 11:48\nshibuya, Tokyo")
