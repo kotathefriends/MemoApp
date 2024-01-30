@@ -34,6 +34,18 @@ struct ContentView: View {
         
         Spacer()
         
+        ZStack {
+            Rectangle()
+                .frame(width: 150, height: 150)
+                .foregroundColor(.yellow)
+            VStack {
+                Text("2024/01/30")
+                
+                Text("Description")
+                
+            }
+            
+        }
         
     }
 }
