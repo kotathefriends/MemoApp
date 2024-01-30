@@ -12,7 +12,7 @@ struct MemoDetailView: View {
         ZStack {
             Rectangle()
                 .frame(width: 150, height: 150)
-                .foregroundColor(.yellow)
+                .foregroundStyle(Color("Yellow"))
             VStack {
                 Text("2024/01/30")
                 
