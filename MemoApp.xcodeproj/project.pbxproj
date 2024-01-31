@@ -41,6 +41,8 @@
 		782731B02B6911770026A087 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				782731AE2B69116D0026A087 /* Memo.swift */,
+				782731AC2B69115A0026A087 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -65,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				785EED562B68C9180080D6D7 /* MemoAppApp.swift */,
-				782731AE2B69116D0026A087 /* Memo.swift */,
-				782731AC2B69115A0026A087 /* User.swift */,
 				785EED662B68D63B0080D6D7 /* Views */,
 				782731B02B6911770026A087 /* Model */,
 				785EED5A2B68C91A0080D6D7 /* Assets.xcassets */,

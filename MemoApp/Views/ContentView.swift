@@ -34,7 +34,58 @@ struct ContentView: View {
         
         Spacer()
         
-        MemoDetailView()
+        ScrollView {
+            
+            //        This week
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("This week")
+                            .fontWeight(.bold)
+                            .font(.system(size: 20))
+                        
+                        ScrollView(.horizontal) {
+                            HStack(spacing: 8) {
+                                MemoDetailView()
+                                MemoDetailView()
+                                MemoDetailView()
+                            }
+                        }
+            //            Spacer()
+                    }
+                    
+            //      memo 1
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("This week")
+                            .fontWeight(.bold)
+                            .font(.system(size: 20))
+                        
+                        ScrollView(.horizontal) {
+                            HStack(spacing: 8) {
+                                MemoDetailView()
+                                MemoDetailView()
+                                MemoDetailView()
+                            }
+                        }
+                        Spacer()
+                    }
+                    
+                    //      memo 1
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("This week")
+                            .fontWeight(.bold)
+                            .font(.system(size: 20))
+                        
+                        ScrollView(.horizontal) {
+                            HStack(spacing: 8) {
+                                MemoDetailView()
+                                MemoDetailView()
+                                MemoDetailView()
+                            }
+                        }
+                        Spacer()
+                    }
+            
+        }
+       
         
     }
 }
