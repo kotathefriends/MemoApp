@@ -9,42 +9,37 @@ import SwiftUI
 
 struct MainTabView: View {
     
-    @State private var selectioin = 1
+    @State private var selection = 1
     
-//    ハプティックフィードバックを生成するための関数
-    func generateHapticFeedback() {
-        let generator = UIImpactFeedbackGenerator(style: .medium)
-        generator.prepare()
-        generator.impactOccurred()
-    }
     
     var body: some View {
-        TabView {
+        TabView(selection: $selection) {
             HomeView() // ホームビューのタブ
                 .tabItem {
                     Label("ホーム", systemImage: "house")
                 }
                 .tag(1)
-                .onAppear {
-                    if selectioin == 1 {
-                        generateHapticFeedback()
-                    }
-                }
+                
 
             FeedView() // フィードビューのタブ
                 .tabItem {
                     Label("フィード", systemImage: "list.bullet")
                 }
                 .tag(2)
-                .onAppear {
-                    if selectioin == 2 {
-                        generateHapticFeedback()
-                    }
-                }
         }
+        .onChange(of: selection) {
+            if selection == 2 {
+                generateHapticFeedback()
+            }
     }
 }
-
+    // ハプティックフィードバックを生成するための関数
+        private func generateHapticFeedback() {
+            let generator = UIImpactFeedbackGenerator(style: .light)
+            generator.prepare()
+            generator.impactOccurred()
+        }
+    }
 
 
 // プレビュー
