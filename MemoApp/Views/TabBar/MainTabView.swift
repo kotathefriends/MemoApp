@@ -16,14 +16,14 @@ struct MainTabView: View {
         TabView(selection: $selection) {
             HomeView() // ホームビューのタブ
                 .tabItem {
-                    Label("ホーム", systemImage: "house")
+                    Label("Home", systemImage: "house")
                 }
                 .tag(1)
                 
 
             FeedView() // フィードビューのタブ
                 .tabItem {
-                    Label("フィード", systemImage: "list.bullet")
+                    Label("Feed", systemImage: "list.bullet")
                 }
                 .tag(2)
         }

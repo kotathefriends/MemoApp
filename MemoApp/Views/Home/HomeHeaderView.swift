@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct HomeHeaderView: View {
+    
+//    シートを表示させるために状態変数
+    @State private var isShowingCurrentUserProfileView = false
+    
     var body: some View {
         // Header
         VStack (alignment: .leading, spacing: 8) {
@@ -22,11 +26,21 @@ struct HomeHeaderView: View {
                     .fontWeight(.bold)
                     .font(.system(size: 32))
                 Spacer()
-                Image("emmacorrin-2")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40)
-                    .clipShape(Circle())
+                
+                Button(action: {
+                    //                    シートを表示させる
+                    self.isShowingCurrentUserProfileView = true
+                }) {
+                    
+                    Image("emmacorrin-2")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                }
+                .sheet(isPresented: $isShowingCurrentUserProfileView) {
+                    CurrentUserProfileView()
+                }
             }
             .padding(.horizontal)
         }
