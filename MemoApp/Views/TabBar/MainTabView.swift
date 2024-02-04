@@ -28,7 +28,7 @@ struct MainTabView: View {
                 .tag(2)
         }
         .onChange(of: selection) {
-            if selection == 2 {
+            if selection == 1 || selection == 2 {
                 generateHapticFeedback()
             }
     }
