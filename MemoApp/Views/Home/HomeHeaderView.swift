@@ -12,10 +12,19 @@ struct HomeHeaderView: View {
 //    シートを表示させるために状態変数
     @State private var isShowingCurrentUserProfileView = false
     
+    @State var nowDate = Date()
+    private let dateFormatter = DateFormatter()
+
+    init() {
+            dateFormatter.dateFormat = "EEEE, MMMM d"
+            dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.timeZone = TimeZone(identifier: "Asia/Tokyo")
+        }
+    
     var body: some View {
         // Header
         VStack (alignment: .leading, spacing: 8) {
-            Text("Wednesday,January 31")
+            Text(dateFormatter.string(from: nowDate))
                 .font(.system(size: 14))
                 .fontWeight(.medium)
                 .foregroundColor(Color(red: 0.65, green: 0.65, blue: 0.65))
@@ -39,7 +48,7 @@ struct HomeHeaderView: View {
                         .clipShape(Circle())
                 }
                 .sheet(isPresented: $isShowingCurrentUserProfileView) {
-                    CurrentUserProfileView()
+                    SettingsView()
                 }
             }
             .padding(.horizontal)
