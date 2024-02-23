@@ -13,6 +13,10 @@ struct SettingsView: View {
     @State private var showingDetail2 = false
     @State private var showingDetail3 = false
     @State private var showingDetail4 = false
+    @State private var showingLogoutAlert = false // ログアウトのアラートを表示するための状態
+    @State private var showingDeleteAccountAlert = false // アカウント削除のアラートを表示するための状態
+
+
 
     var body: some View {
         NavigationView {
@@ -70,6 +74,49 @@ struct SettingsView: View {
                         EditThemaView()
                     }
                 }
+                
+                
+                Section(header: Text("アカウント")) {
+                    
+                    Button(action: { showingLogoutAlert = true }) {
+                        HStack {
+                            Image(systemName: "arrow.right.square.fill")
+                                .foregroundColor(.gray)
+                            Text("ログアウト")
+                                .foregroundColor(.red)
+                        }
+                    }
+                    .alert(isPresented: $showingLogoutAlert) {
+                        Alert(
+                            title: Text("ログアウト"),
+                            message: Text("ログアウトしてもよろしいですか？"),
+                            primaryButton: .destructive(Text("ログアウト")) {
+                                print("ログアウト処理")
+                            },
+                            secondaryButton: .cancel()
+                        )
+                    }
+                    
+                    Button(action: { showingDeleteAccountAlert = true }) {
+                        HStack {
+                            Image(systemName: "x.circle.fill")
+                                .foregroundColor(.gray)
+                            Text("アカウントを削除する")
+                                .foregroundColor(.red)
+                        }
+                    }
+                    .alert(isPresented: $showingDeleteAccountAlert) {
+                        Alert(
+                            title: Text("アカウント削除"),
+                            message: Text("アカウントを削除してもよろしいですか？この操作は取り消せません。"),
+                            primaryButton: .destructive(Text("削除")) {
+                                print("アカウント削除処理")
+                            },
+                            secondaryButton: .cancel()
+                        )
+                    }
+                }
+                
             }
             .navigationTitle("設定")
         }
