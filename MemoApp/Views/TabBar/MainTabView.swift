@@ -21,9 +21,9 @@ struct MainTabView: View {
                 .tag(1)
                 
 
-            FeedView() // フィードビューのタブ
+            UniverseView() // フィードビューのタブ
                 .tabItem {
-                    Label("Feed", systemImage: "list.bullet")
+                    Label("Universe", systemImage: "globe.asia.australia")
                 }
                 .tag(2)
         }

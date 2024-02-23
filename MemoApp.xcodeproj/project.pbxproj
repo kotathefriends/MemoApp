@@ -10,7 +10,7 @@
 		782731AD2B69115A0026A087 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AC2B69115A0026A087 /* User.swift */; };
 		782731AF2B69116D0026A087 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AE2B69116D0026A087 /* Memo.swift */; };
 		782731B52B6A76290026A087 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731B42B6A76290026A087 /* MainTabView.swift */; };
-		7838EB0C2B6BDDF200450764 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0B2B6BDDF200450764 /* FeedView.swift */; };
+		7838EB0C2B6BDDF200450764 /* UniverseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0B2B6BDDF200450764 /* UniverseView.swift */; };
 		7838EB0E2B6BDE3D00450764 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0D2B6BDE3D00450764 /* HomeView.swift */; };
 		7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */; };
 		7838EB132B6BEAD200450764 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB122B6BEAD200450764 /* SettingsView.swift */; };
@@ -30,7 +30,7 @@
 		782731AC2B69115A0026A087 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		782731AE2B69116D0026A087 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		782731B42B6A76290026A087 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		7838EB0B2B6BDDF200450764 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		7838EB0B2B6BDDF200450764 /* UniverseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseView.swift; sourceTree = "<group>"; };
 		7838EB0D2B6BDE3D00450764 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		7838EB122B6BEAD200450764 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			children = (
 				785EED582B68C9180080D6D7 /* ContentView.swift */,
 				7838EB112B6BDF4900450764 /* Home */,
-				7838EB0B2B6BDDF200450764 /* FeedView.swift */,
+				7838EB0B2B6BDDF200450764 /* UniverseView.swift */,
 				785EED672B68D6760080D6D7 /* Memo */,
 				782731B12B6A75E00026A087 /* TabBar */,
 				7838EB142B6BEAE600450764 /* Setting */,
@@ -229,7 +229,7 @@
 				785EED652B68D6350080D6D7 /* MemoDetailView.swift in Sources */,
 				785EED592B68C9180080D6D7 /* ContentView.swift in Sources */,
 				7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */,
-				7838EB0C2B6BDDF200450764 /* FeedView.swift in Sources */,
+				7838EB0C2B6BDDF200450764 /* UniverseView.swift in Sources */,
 				785EED572B68C9180080D6D7 /* MemoAppApp.swift in Sources */,
 				78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */,
 				78A8E03E2B882DEA0074200C /* EditProfileImageView.swift in Sources */,
