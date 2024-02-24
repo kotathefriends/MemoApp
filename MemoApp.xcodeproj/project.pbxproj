@@ -10,7 +10,7 @@
 		782731AD2B69115A0026A087 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AC2B69115A0026A087 /* User.swift */; };
 		782731AF2B69116D0026A087 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AE2B69116D0026A087 /* Memo.swift */; };
 		782731B52B6A76290026A087 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731B42B6A76290026A087 /* MainTabView.swift */; };
-		7838EB0C2B6BDDF200450764 /* UniverseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0B2B6BDDF200450764 /* UniverseView.swift */; };
+		7838EB0C2B6BDDF200450764 /* UniverseFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0B2B6BDDF200450764 /* UniverseFriendsView.swift */; };
 		7838EB0E2B6BDE3D00450764 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0D2B6BDE3D00450764 /* HomeView.swift */; };
 		7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */; };
 		7838EB132B6BEAD200450764 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB122B6BEAD200450764 /* SettingsView.swift */; };
@@ -24,13 +24,15 @@
 		78A8E03C2B882D6F0074200C /* EditUserNamelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */; };
 		78A8E03E2B882DEA0074200C /* EditProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E03D2B882DEA0074200C /* EditProfileImageView.swift */; };
 		78A8E0402B882E810074200C /* EditThemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E03F2B882E810074200C /* EditThemaView.swift */; };
+		78A8E0432B8A20FF0074200C /* UniverseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0422B8A20FF0074200C /* UniverseHeaderView.swift */; };
+		78A8E0452B8A26560074200C /* UniverseDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0442B8A26560074200C /* UniverseDiscoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		782731AC2B69115A0026A087 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		782731AE2B69116D0026A087 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		782731B42B6A76290026A087 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		7838EB0B2B6BDDF200450764 /* UniverseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseView.swift; sourceTree = "<group>"; };
+		7838EB0B2B6BDDF200450764 /* UniverseFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseFriendsView.swift; sourceTree = "<group>"; };
 		7838EB0D2B6BDE3D00450764 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		7838EB122B6BEAD200450764 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserNamelView.swift; sourceTree = "<group>"; };
 		78A8E03D2B882DEA0074200C /* EditProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileImageView.swift; sourceTree = "<group>"; };
 		78A8E03F2B882E810074200C /* EditThemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditThemaView.swift; sourceTree = "<group>"; };
+		78A8E0422B8A20FF0074200C /* UniverseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseHeaderView.swift; sourceTree = "<group>"; };
+		78A8E0442B8A26560074200C /* UniverseDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseDiscoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,8 @@
 		7838EB112B6BDF4900450764 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				7838EB0D2B6BDE3D00450764 /* HomeView.swift */,
 				7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */,
+				7838EB0D2B6BDE3D00450764 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,7 +142,7 @@
 			children = (
 				785EED582B68C9180080D6D7 /* ContentView.swift */,
 				7838EB112B6BDF4900450764 /* Home */,
-				7838EB0B2B6BDDF200450764 /* UniverseView.swift */,
+				78A8E0412B8A20C30074200C /* Universe(Feed) */,
 				785EED672B68D6760080D6D7 /* Memo */,
 				782731B12B6A75E00026A087 /* TabBar */,
 				7838EB142B6BEAE600450764 /* Setting */,
@@ -152,6 +156,16 @@
 				785EED642B68D6350080D6D7 /* MemoDetailView.swift */,
 			);
 			path = Memo;
+			sourceTree = "<group>";
+		};
+		78A8E0412B8A20C30074200C /* Universe(Feed) */ = {
+			isa = PBXGroup;
+			children = (
+				78A8E0422B8A20FF0074200C /* UniverseHeaderView.swift */,
+				7838EB0B2B6BDDF200450764 /* UniverseFriendsView.swift */,
+				78A8E0442B8A26560074200C /* UniverseDiscoverView.swift */,
+			);
+			path = "Universe(Feed)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +243,11 @@
 				785EED652B68D6350080D6D7 /* MemoDetailView.swift in Sources */,
 				785EED592B68C9180080D6D7 /* ContentView.swift in Sources */,
 				7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */,
-				7838EB0C2B6BDDF200450764 /* UniverseView.swift in Sources */,
+				7838EB0C2B6BDDF200450764 /* UniverseFriendsView.swift in Sources */,
 				785EED572B68C9180080D6D7 /* MemoAppApp.swift in Sources */,
 				78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */,
+				78A8E0432B8A20FF0074200C /* UniverseHeaderView.swift in Sources */,
+				78A8E0452B8A26560074200C /* UniverseDiscoverView.swift in Sources */,
 				78A8E03E2B882DEA0074200C /* EditProfileImageView.swift in Sources */,
 				78A8E0402B882E810074200C /* EditThemaView.swift in Sources */,
 				7838EB0E2B6BDE3D00450764 /* HomeView.swift in Sources */,

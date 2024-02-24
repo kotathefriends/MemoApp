@@ -21,7 +21,7 @@ struct MainTabView: View {
                 .tag(1)
                 
 
-            UniverseView() // フィードビューのタブ
+            UniverseFriendsView() // フィードビューのタブ
                 .tabItem {
                     Label("Universe", systemImage: "globe.asia.australia")
                 }

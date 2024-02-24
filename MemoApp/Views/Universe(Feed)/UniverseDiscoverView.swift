@@ -1,18 +1,18 @@
 //
-//  UniverseView.swift
+//  UniverseDiscoverView.swift
 //  MemoApp
 //
-//  Created by KOTA TAKAHASHI on 2024/02/01.
+//  Created by KOTA TAKAHASHI on 2024/02/24.
 //
 
 import SwiftUI
 
-struct UniverseView: View {
+struct UniverseDiscoverView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    UniverseView()
+    UniverseDiscoverView()
 }
