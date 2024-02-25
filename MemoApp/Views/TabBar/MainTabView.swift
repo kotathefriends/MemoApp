@@ -20,7 +20,7 @@ struct MainTabView: View {
                 }
                 .tag(1)
                 
-
+            
             UniverseFriendsView() // フィードビューのタブ
                 .tabItem {
                     Label("Universe", systemImage: "globe.asia.australia")
@@ -43,8 +43,6 @@ struct MainTabView: View {
 
 
 // プレビュー
-struct MainTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTabView()
-    }
+#Preview {
+    MainTabView()
 }

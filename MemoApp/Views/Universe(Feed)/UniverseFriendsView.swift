@@ -9,13 +9,16 @@ import SwiftUI
 
 struct UniverseFriendsView: View {
     var body: some View {
-        UniverseHeaderView()
-        Spacer()
-        
-        
-        Text("UniverseHeaderView")
-        
-        Spacer()
+        VStack {
+            UniverseHeaderView()
+            
+            Spacer()
+            
+            
+            Text("UniverseHeaderView")
+            
+            Spacer()
+        }
     }
 }
 
