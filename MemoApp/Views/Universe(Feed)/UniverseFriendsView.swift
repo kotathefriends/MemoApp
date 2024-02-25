@@ -11,6 +11,7 @@ struct UniverseFriendsView: View {
     var body: some View {
         VStack {
             UniverseHeaderView()
+                .padding(.top)
             
             Spacer()
             

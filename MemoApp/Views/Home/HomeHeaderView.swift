@@ -28,7 +28,9 @@ struct HomeHeaderView: View {
                 .font(.system(size: 14))
                 .fontWeight(.medium)
                 .foregroundColor(Color(red: 0.65, green: 0.65, blue: 0.65))
-                .padding()
+                .frame(height: 12)
+                .padding(.horizontal)
+//                .padding(.top, 4)
                 
             HStack {
                 Text("Hi, emma_amme")
