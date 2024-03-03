@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeedMemoDetailView: View {
+struct FeedMemoMediumView: View {
     var body: some View {
         
         VStack(alignment: .leading) {
@@ -21,14 +21,14 @@ struct FeedMemoDetailView: View {
                     .font(.system(size: 16))
                     .fontWeight(.semibold)
             }
-            MemoDetailView()
+            MemoMediumlView()
                 .padding(.leading, -8)
-                .padding(.top, -8)
+                .padding(.top, -12)
         }
         
     }
 }
 
 #Preview {
-    FeedMemoDetailView()
+    FeedMemoMediumView()
 }

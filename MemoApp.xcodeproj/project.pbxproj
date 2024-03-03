@@ -14,12 +14,12 @@
 		7838EB0E2B6BDE3D00450764 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0D2B6BDE3D00450764 /* HomeView.swift */; };
 		7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */; };
 		7838EB132B6BEAD200450764 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB122B6BEAD200450764 /* SettingsView.swift */; };
-		785479902B94B7B000B31F33 /* FeedMemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854798F2B94B7B000B31F33 /* FeedMemoDetailView.swift */; };
+		785479902B94B7B000B31F33 /* FeedMemoMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854798F2B94B7B000B31F33 /* FeedMemoMediumView.swift */; };
 		785EED572B68C9180080D6D7 /* MemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785EED562B68C9180080D6D7 /* MemoAppApp.swift */; };
 		785EED592B68C9180080D6D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785EED582B68C9180080D6D7 /* ContentView.swift */; };
 		785EED5B2B68C91A0080D6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785EED5A2B68C91A0080D6D7 /* Assets.xcassets */; };
 		785EED5E2B68C91A0080D6D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785EED5D2B68C91A0080D6D7 /* Preview Assets.xcassets */; };
-		785EED652B68D6350080D6D7 /* MemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785EED642B68D6350080D6D7 /* MemoDetailView.swift */; };
+		785EED652B68D6350080D6D7 /* MemoMediumlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785EED642B68D6350080D6D7 /* MemoMediumlView.swift */; };
 		78A8E0382B8825C00074200C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0372B8825C00074200C /* Settings.swift */; };
 		78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0392B882CB40074200C /* EditUserIDlView.swift */; };
 		78A8E03C2B882D6F0074200C /* EditUserNamelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */; };
@@ -37,13 +37,13 @@
 		7838EB0D2B6BDE3D00450764 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7838EB0F2B6BDF4100450764 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		7838EB122B6BEAD200450764 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		7854798F2B94B7B000B31F33 /* FeedMemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMemoDetailView.swift; sourceTree = "<group>"; };
+		7854798F2B94B7B000B31F33 /* FeedMemoMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMemoMediumView.swift; sourceTree = "<group>"; };
 		785EED532B68C9180080D6D7 /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		785EED562B68C9180080D6D7 /* MemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAppApp.swift; sourceTree = "<group>"; };
 		785EED582B68C9180080D6D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		785EED5A2B68C91A0080D6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785EED5D2B68C91A0080D6D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		785EED642B68D6350080D6D7 /* MemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailView.swift; sourceTree = "<group>"; };
+		785EED642B68D6350080D6D7 /* MemoMediumlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoMediumlView.swift; sourceTree = "<group>"; };
 		78A8E0372B8825C00074200C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		78A8E0392B882CB40074200C /* EditUserIDlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserIDlView.swift; sourceTree = "<group>"; };
 		78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserNamelView.swift; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		785EED672B68D6760080D6D7 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
-				785EED642B68D6350080D6D7 /* MemoDetailView.swift */,
-				7854798F2B94B7B000B31F33 /* FeedMemoDetailView.swift */,
+				785EED642B68D6350080D6D7 /* MemoMediumlView.swift */,
+				7854798F2B94B7B000B31F33 /* FeedMemoMediumView.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -243,14 +243,14 @@
 			files = (
 				782731AD2B69115A0026A087 /* User.swift in Sources */,
 				78A8E03C2B882D6F0074200C /* EditUserNamelView.swift in Sources */,
-				785EED652B68D6350080D6D7 /* MemoDetailView.swift in Sources */,
+				785EED652B68D6350080D6D7 /* MemoMediumlView.swift in Sources */,
 				785EED592B68C9180080D6D7 /* ContentView.swift in Sources */,
 				7838EB102B6BDF4100450764 /* HomeHeaderView.swift in Sources */,
 				7838EB0C2B6BDDF200450764 /* UniverseFriendsView.swift in Sources */,
 				785EED572B68C9180080D6D7 /* MemoAppApp.swift in Sources */,
 				78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */,
 				78A8E0432B8A20FF0074200C /* UniverseHeaderView.swift in Sources */,
-				785479902B94B7B000B31F33 /* FeedMemoDetailView.swift in Sources */,
+				785479902B94B7B000B31F33 /* FeedMemoMediumView.swift in Sources */,
 				78A8E0452B8A26560074200C /* UniverseDiscoverView.swift in Sources */,
 				78A8E03E2B882DEA0074200C /* EditProfileImageView.swift in Sources */,
 				78A8E0402B882E810074200C /* EditThemaView.swift in Sources */,

@@ -23,11 +23,12 @@ struct UniverseFriendsView: View {
             
             ScrollView {
                 
-                LazyVGrid(columns: columns, spacing: 20) {
+                LazyVGrid(columns: columns, spacing: 16) {
                     ForEach(0..<10, id: \.self) { _ in
-                            MemoDetailView()
+                        FeedMemoMediumView()
                     }
                 }
+                .padding(.horizontal, 20)
             }
             
             

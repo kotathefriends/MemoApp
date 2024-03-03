@@ -29,9 +29,9 @@ struct HomeView: View {
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 8) {
-                                    MemoDetailView()
-                                    MemoDetailView()
-                                    MemoDetailView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
                                 }
                             }
                 //            Spacer()
@@ -47,9 +47,9 @@ struct HomeView: View {
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 8) {
-                                    MemoDetailView()
-                                    MemoDetailView()
-                                    MemoDetailView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
                                 }
                             }
                             Spacer()
@@ -65,9 +65,9 @@ struct HomeView: View {
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 8) {
-                                    MemoDetailView()
-                                    MemoDetailView()
-                                    MemoDetailView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
                                 }
                             }
                             Spacer()
@@ -83,9 +83,9 @@ struct HomeView: View {
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 8) {
-                                    MemoDetailView()
-                                    MemoDetailView()
-                                    MemoDetailView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
+                                    MemoMediumlView()
                                 }
                             }
                             Spacer()

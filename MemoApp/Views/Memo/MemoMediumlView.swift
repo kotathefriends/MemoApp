@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MemoDetailView: View {
+struct MemoMediumlView: View {
     var body: some View {
         ZStack {
             Color("Yellow")
@@ -54,7 +54,7 @@ struct MemoDetailView: View {
 }
 
 #Preview {
-    MemoDetailView()
+    MemoMediumlView()
 }
 
 
