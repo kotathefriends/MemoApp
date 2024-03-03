@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct UniverseFriendsView: View {
+    
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    
     var body: some View {
         VStack {
             UniverseHeaderView()
@@ -15,8 +21,15 @@ struct UniverseFriendsView: View {
             
             Spacer()
             
+            ScrollView {
+                
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(0..<10, id: \.self) { _ in
+                            MemoDetailView()
+                    }
+                }
+            }
             
-            Text("UniverseHeaderView")
             
             Spacer()
         }

@@ -12,6 +12,8 @@ struct UniverseHeaderView: View {
     //    シートを表示させるために状態変数
     @State private var isShowingCurrentUserProfileView = false
     
+    @State private var isShowingFeedView = false
+    
     var body: some View {
         
         VStack(spacing:16) {
@@ -48,15 +50,17 @@ struct UniverseHeaderView: View {
             .padding(.horizontal)
             
             HStack(spacing:20){
-                Text("My Friends")
-                    .font(.system(size: 20))
-                    .fontWeight(.bold)
-                    .frame(width: 120)
+
+                    Text("My Friends")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(width: 120)
                 
-                Text("Discovery")
-                    .font(.system(size: 20))
-                    .fontWeight(.bold)
-                    .frame(width: 130)
+
+                    Text("Discovery")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(width: 130)
                 
                 
                 
