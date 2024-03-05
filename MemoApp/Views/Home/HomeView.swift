@@ -25,7 +25,7 @@ struct HomeView: View {
                             Text("This week")
                                 .fontWeight(.bold)
                                 .font(.system(size: 20))
-                                .padding(.horizontal, 20)
+                                .padding(.horizontal, 28)
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 8) {
@@ -33,6 +33,7 @@ struct HomeView: View {
                                     MemoMediumlView()
                                     MemoMediumlView()
                                 }
+                                .padding(.horizontal, 20)
                             }
                 //            Spacer()
                         }
@@ -42,7 +43,7 @@ struct HomeView: View {
                             Text("2024/01/21~2024/01/27")
                                 .fontWeight(.bold)
                                 .font(.system(size: 20))
-                                .padding(.horizontal, 20)
+                                .padding(.horizontal, 28)
 
                             
                             ScrollView(.horizontal) {
@@ -51,6 +52,7 @@ struct HomeView: View {
                                     MemoMediumlView()
                                     MemoMediumlView()
                                 }
+                                .padding(.horizontal, 20)
                             }
                             Spacer()
                         }
@@ -60,7 +62,7 @@ struct HomeView: View {
                             Text("2024/01/21~2024/01/27")
                                 .fontWeight(.bold)
                                 .font(.system(size: 20))
-                                .padding(.horizontal, 20)
+                                .padding(.horizontal, 28)
 
                             
                             ScrollView(.horizontal) {
@@ -69,6 +71,7 @@ struct HomeView: View {
                                     MemoMediumlView()
                                     MemoMediumlView()
                                 }
+                                .padding(.horizontal, 20)
                             }
                             Spacer()
                         }
@@ -78,7 +81,7 @@ struct HomeView: View {
                             Text("2024/01/21~2024/01/27")
                                 .fontWeight(.bold)
                                 .font(.system(size: 20))
-                                .padding(.horizontal, 20)
+                                .padding(.horizontal, 28)
 
                             
                             ScrollView(.horizontal) {
@@ -87,6 +90,7 @@ struct HomeView: View {
                                     MemoMediumlView()
                                     MemoMediumlView()
                                 }
+                                .padding(.horizontal, 20)
                             }
                             Spacer()
                         }
