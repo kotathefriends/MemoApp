@@ -23,7 +23,7 @@ struct HomeHeaderView: View {
     
     var body: some View {
         // Header
-        VStack (alignment: .leading, spacing: 8) {
+        VStack (alignment: .leading, spacing: -8) {
             Text(dateFormatter.string(from: nowDate))
                 .font(.system(size: 14))
                 .fontWeight(.medium)
@@ -54,7 +54,10 @@ struct HomeHeaderView: View {
                 }
             }
             .padding(.horizontal)
+            .padding(.top)
         }
+        .frame(height: 80)
+
     }
 }
 

@@ -68,6 +68,8 @@ struct UniverseHeaderView: View {
             
             
         }
+        .padding(.top, 28)
+        .frame(height: 80)
         
         
     }
