@@ -14,16 +14,25 @@ struct UniverseHeaderView: View {
     
     @State private var isShowingFeedView = false
     
+    @State private var isShowingAddFriendsView = false
+    
     var body: some View {
         
         VStack(spacing:16) {
             
             HStack {
                 
-                Image(systemName:"person.2.fill")
-                    .font(.system(size: 24, weight: .medium))
-                    .frame(width: 40, height: 40)
-                
+                Button(action: {
+                    self.isShowingAddFriendsView = true
+                }) {
+                    Image(systemName:"person.2.fill")
+                        .font(.system(size: 24, weight: .medium))
+                        .frame(width: 40, height: 40)
+                        .foregroundColor(.black)
+                }
+                .sheet(isPresented:$isShowingAddFriendsView) {
+                    AddFriendsView()
+                }
                 
                 Spacer()
                 
