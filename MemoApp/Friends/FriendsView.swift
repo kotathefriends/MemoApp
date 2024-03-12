@@ -14,15 +14,16 @@ struct FriendsView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 20) {
                 SearchBarView(searchText: $searchText, isSearching: $isSearching)
                 if isSearching {
                     // 検索結果の表示など
                     Text("Showing search results for \"\(searchText)\"")
                 }
-                Spacer()
                 // ここにフレンドリストやその他のコンテンツを配置
+                InviteFriendsCardView()
                 
+                Spacer()
                 
             }
             .navigationBarTitle("Friends")

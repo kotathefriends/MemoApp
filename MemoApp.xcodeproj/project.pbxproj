@@ -10,6 +10,7 @@
 		782731AD2B69115A0026A087 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AC2B69115A0026A087 /* User.swift */; };
 		782731AF2B69116D0026A087 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731AE2B69116D0026A087 /* Memo.swift */; };
 		782731B52B6A76290026A087 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782731B42B6A76290026A087 /* MainTabView.swift */; };
+		7827C25F2BA035E5000FD8CF /* InviteFriendsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C25E2BA035E5000FD8CF /* InviteFriendsCardView.swift */; };
 		7836D71B2B9F3C2E006EE1EF /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836D71A2B9F3C2E006EE1EF /* FriendsView.swift */; };
 		7838EB0C2B6BDDF200450764 /* UniverseFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0B2B6BDDF200450764 /* UniverseFriendsView.swift */; };
 		7838EB0E2B6BDE3D00450764 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7838EB0D2B6BDE3D00450764 /* HomeView.swift */; };
@@ -35,6 +36,7 @@
 		782731AC2B69115A0026A087 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		782731AE2B69116D0026A087 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		782731B42B6A76290026A087 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7827C25E2BA035E5000FD8CF /* InviteFriendsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsCardView.swift; sourceTree = "<group>"; };
 		7836D71A2B9F3C2E006EE1EF /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		7838EB0B2B6BDDF200450764 /* UniverseFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseFriendsView.swift; sourceTree = "<group>"; };
 		7838EB0D2B6BDE3D00450764 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		785BE3C22B9FE63700C2B726 /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				7827C25E2BA035E5000FD8CF /* InviteFriendsCardView.swift */,
 				7836D71A2B9F3C2E006EE1EF /* FriendsView.swift */,
 				78DED4082BA00E8400C47023 /* SearchBarView.swift */,
 			);
@@ -264,6 +267,7 @@
 				7838EB0C2B6BDDF200450764 /* UniverseFriendsView.swift in Sources */,
 				785EED572B68C9180080D6D7 /* MemoAppApp.swift in Sources */,
 				78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */,
+				7827C25F2BA035E5000FD8CF /* InviteFriendsCardView.swift in Sources */,
 				78A8E0432B8A20FF0074200C /* UniverseHeaderView.swift in Sources */,
 				785479902B94B7B000B31F33 /* FeedMemoMediumView.swift in Sources */,
 				78A8E0452B8A26560074200C /* UniverseDiscoverView.swift in Sources */,
