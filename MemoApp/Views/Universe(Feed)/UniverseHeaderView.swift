@@ -14,7 +14,7 @@ struct UniverseHeaderView: View {
     
     @State private var isShowingFeedView = false
     
-    @State private var isShowingAddFriendsView = false
+    @State private var isShowingFriendsView = false
     
     var body: some View {
         
@@ -23,15 +23,15 @@ struct UniverseHeaderView: View {
             HStack {
                 
                 Button(action: {
-                    self.isShowingAddFriendsView = true
+                    self.isShowingFriendsView = true
                 }) {
                     Image(systemName:"person.2.fill")
                         .font(.system(size: 24, weight: .medium))
                         .frame(width: 40, height: 40)
                         .foregroundColor(.black)
                 }
-                .sheet(isPresented:$isShowingAddFriendsView) {
-                    AddFriendsView()
+                .sheet(isPresented:$isShowingFriendsView) {
+                    FriendsView()
                 }
                 
                 Spacer()
