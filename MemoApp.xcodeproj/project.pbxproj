@@ -23,6 +23,7 @@
 		785EED5B2B68C91A0080D6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785EED5A2B68C91A0080D6D7 /* Assets.xcassets */; };
 		785EED5E2B68C91A0080D6D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785EED5D2B68C91A0080D6D7 /* Preview Assets.xcassets */; };
 		785EED652B68D6350080D6D7 /* MemoMediumlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785EED642B68D6350080D6D7 /* MemoMediumlView.swift */; };
+		7890D84C2BB305A200A6A0E8 /* InviteFriendsSareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7890D84B2BB305A200A6A0E8 /* InviteFriendsSareCardView.swift */; };
 		78A8E0382B8825C00074200C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0372B8825C00074200C /* Settings.swift */; };
 		78A8E03A2B882CB40074200C /* EditUserIDlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E0392B882CB40074200C /* EditUserIDlView.swift */; };
 		78A8E03C2B882D6F0074200C /* EditUserNamelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */; };
@@ -51,6 +52,7 @@
 		785EED5A2B68C91A0080D6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785EED5D2B68C91A0080D6D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		785EED642B68D6350080D6D7 /* MemoMediumlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoMediumlView.swift; sourceTree = "<group>"; };
+		7890D84B2BB305A200A6A0E8 /* InviteFriendsSareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsSareCardView.swift; sourceTree = "<group>"; };
 		78A8E0372B8825C00074200C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		78A8E0392B882CB40074200C /* EditUserIDlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserIDlView.swift; sourceTree = "<group>"; };
 		78A8E03B2B882D6F0074200C /* EditUserNamelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserNamelView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				7827C2602BA03C56000FD8CF /* InviteFriendsView.swift */,
 				7836D71A2B9F3C2E006EE1EF /* FriendsView.swift */,
 				78DED4082BA00E8400C47023 /* SearchBarView.swift */,
+				7890D84D2BB305A800A6A0E8 /* Helper */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -179,6 +182,14 @@
 				7854798F2B94B7B000B31F33 /* FeedMemoMediumView.swift */,
 			);
 			path = Memo;
+			sourceTree = "<group>";
+		};
+		7890D84D2BB305A800A6A0E8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7890D84B2BB305A200A6A0E8 /* InviteFriendsSareCardView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		78A8E0412B8A20C30074200C /* Universe(Feed) */ = {
@@ -283,6 +294,7 @@
 				782731AF2B69116D0026A087 /* Memo.swift in Sources */,
 				78A8E0382B8825C00074200C /* Settings.swift in Sources */,
 				782731B52B6A76290026A087 /* MainTabView.swift in Sources */,
+				7890D84C2BB305A200A6A0E8 /* InviteFriendsSareCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
