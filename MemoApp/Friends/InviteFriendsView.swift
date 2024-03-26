@@ -10,25 +10,28 @@ import SwiftUI
 struct InviteFriendsView: View {
     var body: some View {
         NavigationView {
-            
             VStack(spacing: 54) {
-                Image("IGShareBackGround")
-                    .resizable()
-                    .frame(width: 270, height: 480)
-                
-                HStack {
-                    Text("Share IG stories")
-                        .fontWeight(.bold)
-                    
-                    Spacer()
-                    
-                    Image(systemName: "square.and.arrow.up")
-                    
+                ZStack {
+                    Image("IGShareBackGround")
+                        .resizable()
+                        .frame(width: 270, height: 480)
+                    InviteFriendsSareCardView()
                 }
-                .padding(.horizontal, 20)
-                .navigationTitle("Invite Friends")
                 
+                Button(action: {
+                    print("Instagram ストーリーにシェア")
+                }) {
+                    HStack {
+                        Text("Share IG stories")
+                            .fontWeight(.bold)
+                        Spacer()
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .foregroundColor(.black)
+                    .padding(.horizontal, 20)
+                }
             }
+            .navigationTitle("Invite Friends")
         }
     }
 }
