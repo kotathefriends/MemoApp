@@ -12,90 +12,94 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         
-        VStack {
+        ZStack {
             
-            HomeHeaderView()
-            
-    //        Spacer()
-            
-            ScrollView {
+            VStack {
                 
-                //        This week
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("This week")
-                                .fontWeight(.bold)
-                                .font(.system(size: 20))
-                                .padding(.horizontal, 28)
-                            
-                            ScrollView(.horizontal) {
-                                HStack(spacing: 8) {
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                }
-                                .padding(.horizontal, 20)
-                            }
-                //            Spacer()
-                        }
-                        
-                //      week 2
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("2024/01/21~2024/01/27")
-                                .fontWeight(.bold)
-                                .font(.system(size: 20))
-                                .padding(.horizontal, 28)
-
-                            
-                            ScrollView(.horizontal) {
-                                HStack(spacing: 8) {
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                }
-                                .padding(.horizontal, 20)
-                            }
-                            Spacer()
-                        }
-                        
-                //      week 3
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("2024/01/21~2024/01/27")
-                                .fontWeight(.bold)
-                                .font(.system(size: 20))
-                                .padding(.horizontal, 28)
-
-                            
-                            ScrollView(.horizontal) {
-                                HStack(spacing: 8) {
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                }
-                                .padding(.horizontal, 20)
-                            }
-                            Spacer()
-                        }
+                HomeHeaderView()
                 
-                //      week 4
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("2024/01/21~2024/01/27")
-                                .fontWeight(.bold)
-                                .font(.system(size: 20))
-                                .padding(.horizontal, 28)
-
-                            
-                            ScrollView(.horizontal) {
-                                HStack(spacing: 8) {
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                    MemoMediumlView()
-                                }
-                                .padding(.horizontal, 20)
-                            }
-                            Spacer()
-                        }
+        //        Spacer()
                 
+                ScrollView {
+                    
+                    //        This week
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("This week")
+                                    .fontWeight(.bold)
+                                    .font(.system(size: 20))
+                                    .padding(.horizontal, 28)
+                                
+                                ScrollView(.horizontal) {
+                                    HStack(spacing: 8) {
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                    }
+                                    .padding(.horizontal, 20)
+                                }
+                    //            Spacer()
+                            }
+                            
+                    //      week 2
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("2024/01/21~2024/01/27")
+                                    .fontWeight(.bold)
+                                    .font(.system(size: 20))
+                                    .padding(.horizontal, 28)
+
+                                
+                                ScrollView(.horizontal) {
+                                    HStack(spacing: 8) {
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                    }
+                                    .padding(.horizontal, 20)
+                                }
+                                Spacer()
+                            }
+                            
+                    //      week 3
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("2024/01/21~2024/01/27")
+                                    .fontWeight(.bold)
+                                    .font(.system(size: 20))
+                                    .padding(.horizontal, 28)
+
+                                
+                                ScrollView(.horizontal) {
+                                    HStack(spacing: 8) {
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                    }
+                                    .padding(.horizontal, 20)
+                                }
+                                Spacer()
+                            }
+                    
+                    //      week 4
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("2024/01/21~2024/01/27")
+                                    .fontWeight(.bold)
+                                    .font(.system(size: 20))
+                                    .padding(.horizontal, 28)
+
+                                
+                                ScrollView(.horizontal) {
+                                    HStack(spacing: 8) {
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                        MemoMediumlView()
+                                    }
+                                    .padding(.horizontal, 20)
+                                }
+                                Spacer()
+                            }
+                    
+                }
             }
+            FloatingButtonView()
         }
        
         
