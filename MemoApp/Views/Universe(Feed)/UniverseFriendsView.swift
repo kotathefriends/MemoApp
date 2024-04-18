@@ -9,6 +9,9 @@ import SwiftUI
 
 struct UniverseFriendsView: View {
     
+    @State private var selectedView: UniverseHeaderView.SelectedView = .friends
+
+    
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -16,7 +19,7 @@ struct UniverseFriendsView: View {
     
     var body: some View {
         VStack {
-            UniverseHeaderView()
+            UniverseHeaderView(selectedView: $selectedView)
                 .padding(.top)
             
             Spacer()

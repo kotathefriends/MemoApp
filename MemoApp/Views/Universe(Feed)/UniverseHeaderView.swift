@@ -15,6 +15,16 @@ struct UniverseHeaderView: View {
     @State private var isShowingFeedView = false
     
     @State private var isShowingFriendsView = false
+
+    
+    // 選択中の機能を管理する状態変数
+    @Binding var selectedView: SelectedView
+
+    
+    enum SelectedView {
+        case friends, discovery
+    }
+    
     
     var body: some View {
         
@@ -58,32 +68,37 @@ struct UniverseHeaderView: View {
             }
             .padding(.horizontal)
             
-            HStack(spacing:20){
-
+            // 機能選択ボタン
+            HStack(spacing: 20) {
+                Button(action: {
+                    selectedView = .friends
+                }) {
                     Text("My Friends")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
+                        .foregroundColor(selectedView == .friends ? .yellow : .black)
                         .frame(width: 120)
-                
+                }
 
+                Button(action: {
+                    selectedView = .discovery
+                }) {
                     Text("Discovery")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
+                        .foregroundColor(selectedView == .discovery ? .yellow : .black)
                         .frame(width: 130)
-                
-                
-                
+                }
             }
             
             
         }
         .padding(.top, 8)
         .frame(height: 100)
-        
-        
     }
 }
 
+
 #Preview {
-    UniverseHeaderView()
+    UniverseHeaderView(selectedView: .constant(.friends))
 }
